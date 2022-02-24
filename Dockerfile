@@ -47,7 +47,5 @@ COPY . .
 # Specify port
 EXPOSE 5000
 
-RUN printenv
-
 # Start flask server
-CMD flask run
+CMD flask run -h 0.0.0.0 -p 5000

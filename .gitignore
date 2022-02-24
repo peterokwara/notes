@@ -117,3 +117,9 @@ dmypy.json
 
 # remove migrations
 migrations/
+
+# remove postgress data
+postrgess-data/
+
+# remove sql data
+sql/
